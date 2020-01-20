@@ -1,0 +1,34 @@
+#draggable { 
+	border: 0.2rem dashed #050;
+	width: 10rem; 
+	padding: 1.5rem; 
+	background-color: lightgreen;
+	background-image: url(../imagenes/coco.png); 
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: grab;
+}
+#draggable:hover{
+	background-color: #cec;
+}
+#textoPrincipal{
+	margin-top: 4em;
+	margin-bottom: -0.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.75em;
+	font-family: principal;
+	font-weight: bold;
+	color: #040;
+
+}
+@font-face{
+	font-family: principal;
+	src: url(../fuentes/kindergarten.ttf);
+}
+
+body{
+	background-image: url(../imagenes/prado.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
